@@ -1,8 +1,8 @@
 import React from 'react';
 import Modal from 'react-bootstrap4-modal';
-import { DetailedItem } from '../utils/Types';
-import { defaultImage, isPerson } from '../utils/Utils';
-import InformationFields from './InformationFields';
+import { DetailedItem } from '../utils/Types.tsx';
+import { defaultImage, isPerson } from '../utils/Utils.tsx';
+import InformationFields from './InformationFields.tsx';
 
 interface InformationModalProps {
     open: boolean;

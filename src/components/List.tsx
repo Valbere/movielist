@@ -1,7 +1,6 @@
-import React from 'react';
-import { Item } from '../utils/Types';
-import { defaultImage } from '../utils/Utils';
-import InformationFields from './InformationFields';
+import { Item } from '../utils/Types.tsx';
+import { defaultImage } from '../utils/Utils.tsx';
+import InformationFields from './InformationFields.tsx';
 
 type listProps = {
     items: Item[];

@@ -1,5 +1,5 @@
 import { ApiRequest, Item } from "./Types";
-import { apiKey, errorMessage } from "./Utils";
+import { apiKey, errorMessage } from "./Utils.tsx";
 
 const getPopular = async () => {
     const response = await fetch(`https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1&api_key=${apiKey}`);

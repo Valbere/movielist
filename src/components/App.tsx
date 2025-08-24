@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import { ReactNotifications } from 'react-notifications-component';
 import '../styling/App.css';
-import { getApiData, getDetailedInfo, getPopular } from "../utils/ApiRequests";
-import { hiddenMoviesList } from '../utils/HiddenMoviesList';
-import { DetailedItem, Item, Movie } from '../utils/Types';
-import InformationModal from './InformationModal';
-import List from "./List";
-import Search from "./Search";
+import { getApiData, getDetailedInfo, getPopular } from "../utils/ApiRequests.tsx";
+import { hiddenMoviesList } from '../utils/HiddenMoviesList.tsx';
+import { DetailedItem, Item, Movie } from '../utils/Types.tsx';
+import InformationModal from './InformationModal.tsx';
+import List from "./List.tsx";
+import Search from "./Search.tsx";
 
 function App() {
   const [item, setItem] = useState<DetailedItem>();
@@ -83,7 +83,7 @@ function App() {
       <input type='button' value="Secret Mae movie list" onClick={() => loadHiddenList()} />
       <Search searchValue={searchValue} setSearchValue={value => setSearchValue(value.target.value)} searchFilter={searchFilter} filterSearch={filterSearch} />
       <List items={itemsList} selectItem={selectItem} />
-      <InformationModal open={open} setOpen={() => {setOpen(false)}} item={item} hidden={hidden} setViewedMovie={(checked, id) => handleViewedMovie(checked, id)} />
+      <InformationModal open={open} setOpen={() => setOpen(false)} item={item} hidden={hidden} setViewedMovie={(checked, id) => handleViewedMovie(checked, id)} />
     </div>
   );
 }
