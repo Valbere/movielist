@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------
+------------------------------ SEARCH ----------------------------------
+----------------------------------------------------------------------*/
+
+.search-wrapper {
+  width: 34rem;
+  margin: 2rem auto;
+}
+
+.search-wrapper .searchbar {
+  height: 3rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.1em 1em;
+  font-size: 1.25rem;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.search-wrapper .Dropdown-root {
+  font-size: 1rem;
+  width: 8rem;
+  text-align: left;
+  margin-left: 0.25rem;
+}
+
+.search-wrapper .Dropdown-menu {
+  height: 10rem;
+}
+
+.search-wrapper .Dropdown-control {
+  padding: 0.25rem 0.5rem;
+}
+
+/* ---------------------------------------------------------------------
+------------------------------ List ------------------------------------
+----------------------------------------------------------------------*/
+
+.items-container, .items-second-container {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.items-second-container {
+  justify-content: left;
+}
+
+.item-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 19%;
+}
+
+.item {
+  position: relative;
+  padding: 0.625rem 1.5rem;
+}
+
+.item-info {
+  visibility: hidden;
+  position: absolute;
+  width: calc(100% - 3rem);
+  margin: auto;
+  opacity: 0.8;
+  border-radius: 0 0 20px 20px;
+  bottom: 0.8rem;
+  background: #dcd9d9;
+  pointer-events: none;
+}
+
+.item-info > div {
+  margin: 0 0.75rem;
+}
+
+.item-info > div:first-child {
+  margin-top: 0.25rem;
+}
+
+.item-info > div:last-child {
+  margin-bottom: 0.25rem;
+} 
+
+.item-cell {
+  cursor: pointer;
+}
+
+.item-cell:hover {
+  opacity: .75;
+}
+
+.item-cell:hover + .item-info {
+  visibility: inherit;
+}
+
+.item-image {
+  height: 25vw;
+  border-radius: 20px;
+}
+
+/* ---------------------------------------------------------------------
+------------------------------ MODAL -----------------------------------
+----------------------------------------------------------------------*/
+
+.modal {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+
+.modal-dialog {
+  margin: 2.5% auto;
+  width: 75rem;
+  height: 32rem;
+  background: #f5f5f5;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 4px 2px 5px lightgrey;
+}
+
+.modal-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.modal-image-container {
+  height: 32rem;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0.5em;
+  opacity: 0.5;
+  cursor: pointer;
+  background: url(https://cdn-icons-png.flaticon.com/512/3388/3388658.png);
+}
+
+.modal-close:hover {
+  top: 1em;
+  right: 1em;
+  border: 1px solid;
+  border-radius: 15px;
+  opacity: 0.8
+}
+
+.modal-image {
+  height: 32rem;
+}
+
+.modal-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.modal-subheader {
+  font-size: 1em;
+}
+
+.modal-information {
+  position: relative;
+  margin: 1.5rem 3rem;
+}
+
+.modal-information-header {
+  margin-bottom: 1.75rem;
+  text-align: center;
+}
+
+.modal-information-body {
+  height: 12rem;
+  overflow-y: auto;
+}
+
+.modal-information-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 800px) {
+  .item-wrapper {
+    width: 32%;
+  }
+
+  .item-image {
+    height: 35vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .item-wrapper {
+    width: 32%;
+  }
+
+  .item-image {
+    height: 35vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .item-wrapper {
+    width: 49%;
+  }
+
+  .item-image {
+    height: 50vw;
+  }
+}

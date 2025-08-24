@@ -1,0 +1,516 @@
+export const hiddenMoviesList = [
+    {
+        "adult": false,
+        "backdrop_path": "/icmmSD4vTTDKOq2vvdulafOGw93.jpg",
+        "genre_ids": [
+            28,
+            878
+        ],
+        "id": 603,
+        "original_language": "en",
+        "original_title": "The Matrix",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "popularity": 128.646,
+        "poster_path": "/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+        "release_date": "1999-03-31",
+        "title": "The Matrix",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 25982,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/yriYPLqyFqPW0QXaegT1KmWXk9a.jpg",
+        "genre_ids": [
+            878,
+            53
+        ],
+        "id": 1954,
+        "original_language": "en",
+        "original_title": "The Butterfly Effect",
+        "overview": "A young man struggles to access sublimated childhood memories. He finds a technique that allows him to travel back into the past, to occupy his childhood body and change history. However, he soon finds that every change he makes has unexpected consequences.",
+        "popularity": 33.19,
+        "poster_path": "/ea5iv7TWMh18fOKoRGgmtcg85Gx.jpg",
+        "release_date": "2004-01-17",
+        "title": "The Butterfly Effect",
+        "video": false,
+        "vote_average": 7.58,
+        "vote_count": 7600,
+        "watched": true
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/ttBydD0SynC0TMkW3AcnmsySkLp.jpg",
+        "genre_ids": [
+            10749,
+            14,
+            18,
+            35
+        ],
+        "id": 137,
+        "original_language": "en",
+        "original_title": "Groundhog Day",
+        "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer, and his mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
+        "popularity": 95.873,
+        "poster_path": "/gCgt1WARPZaXnq523ySQEUKinCs.jpg",
+        "release_date": "1993-02-11",
+        "title": "Groundhog Day",
+        "video": false,
+        "vote_average": 7.611,
+        "vote_count": 8096,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/vgnoBSVzWAV9sNQUORaDGvDp7wx.jpg",
+        "genre_ids": [
+            12,
+            18,
+            878
+        ],
+        "id": 157336,
+        "original_language": "en",
+        "original_title": "Interstellar",
+        "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+        "popularity": 343.513,
+        "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+        "release_date": "2014-11-05",
+        "title": "Interstellar",
+        "video": false,
+        "vote_average": 8.4,
+        "vote_count": 36367,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/vINgGecnz95iDL6fjQMARDsocgG.jpg",
+        "genre_ids": [
+            28,
+            53,
+            878
+        ],
+        "id": 280,
+        "original_language": "en",
+        "original_title": "Terminator 2: Judgment Day",
+        "overview": "Set ten years after the events of the original, James Cameron’s classic sci-fi action flick tells the story of a second attempt to get rid of rebellion leader John Connor, this time targeting the boy himself. However, the rebellion has sent a reprogrammed terminator to protect Connor.",
+        "popularity": 78.852,
+        "poster_path": "/5M0j0B18abtBI5gi2RhfjjurTqb.jpg",
+        "release_date": "1991-07-03",
+        "title": "Terminator 2: Judgment Day",
+        "video": false,
+        "vote_average": 8.1,
+        "vote_count": 13065,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/6KDLAU9OnA0FhXP1av8jqavCGG9.jpg",
+        "genre_ids": [
+            27
+        ],
+        "id": 9532,
+        "original_language": "en",
+        "original_title": "Final Destination",
+        "overview": "After a teenager has a terrifying vision of him and his friends dying in a plane crash, he prevents the accident only to have Death hunt them down, one by one.",
+        "popularity": 60.57,
+        "poster_path": "/1mXhlQMnlfvJ2frxTjZSQNnA9Vp.jpg",
+        "release_date": "2000-03-17",
+        "title": "Final Destination",
+        "video": false,
+        "vote_average": 6.605,
+        "vote_count": 5679,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/5bzPWQ2dFUl2aZKkp7ILJVVkRed.jpg",
+        "genre_ids": [
+            12,
+            35,
+            878
+        ],
+        "id": 105,
+        "original_language": "en",
+        "original_title": "Back to the Future",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "popularity": 77.607,
+        "poster_path": "/rej4R5DIdlx29I2soNePfInICG3.jpg",
+        "release_date": "1985-07-03",
+        "title": "Back to the Future",
+        "video": false,
+        "vote_average": 8.317,
+        "vote_count": 20185,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/1GJvBE7UWU1WOVi0XREl4JQc7f8.jpg",
+        "genre_ids": [
+            28,
+            12,
+            35,
+            878
+        ],
+        "id": 607,
+        "original_language": "en",
+        "original_title": "Men in Black",
+        "overview": "After a police chase with an otherworldly being, a New York City cop is recruited as an agent in a top-secret organization established to monitor and police alien activity on Earth: the Men in Black. Agent K and new recruit Agent J find themselves in the middle of a deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies.",
+        "popularity": 51.516,
+        "poster_path": "/uLOmOF5IzWoyrgIF5MfUnh5pa1X.jpg",
+        "release_date": "1997-07-02",
+        "title": "Men in Black",
+        "video": false,
+        "vote_average": 7.202,
+        "vote_count": 13858,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/w6Fs4bIje1naeILo9KwAc1Y6bvP.jpg",
+        "genre_ids": [
+            18,
+            37
+        ],
+        "id": 68718,
+        "original_language": "en",
+        "original_title": "Django Unchained",
+        "overview": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+        "popularity": 62.256,
+        "poster_path": "/bV0rWoiRo7pHUTQkh6Oio6irlXO.jpg",
+        "release_date": "2012-12-25",
+        "title": "Django Unchained",
+        "video": false,
+        "vote_average": 8.182,
+        "vote_count": 26452,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/aCHn2TXYJfzPXQKA6r9mKPbMlUB.jpg",
+        "genre_ids": [
+            35,
+            18
+        ],
+        "id": 37165,
+        "original_language": "en",
+        "original_title": "The Truman Show",
+        "overview": "Every second of every day, from the moment he was born, for the last thirty years, Truman Burbank has been the unwitting star of the longest running, most popular documentary-soap opera in history. The picture-perfect town of Seahaven that he calls home is actually a gigantic soundstage. Truman's friends and family - everyone he meets, in fact - are actors. He lives every moment under the unblinking gaze of thousands of hidden TV cameras.",
+        "popularity": 84.029,
+        "poster_path": "/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
+        "release_date": "1998-06-04",
+        "title": "The Truman Show",
+        "video": false,
+        "vote_average": 8.146,
+        "vote_count": 18565,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/irpJXGiVr539uuspcQcNdkhS2lq.jpg",
+        "genre_ids": [
+            16,
+            28,
+            35,
+            10751,
+            878
+        ],
+        "id": 38055,
+        "original_language": "en",
+        "original_title": "Megamind",
+        "overview": "After Megamind, a highly intelligent alien supervillain, defeats his long-time nemesis Metro Man, Megamind creates a new hero to fight, but must act to save the city when his \"creation\" becomes an even worse villain than he was.",
+        "popularity": 45.852,
+        "poster_path": "/uZ9ytt3sPTx62XTfN56ILSuYWRe.jpg",
+        "release_date": "2010-10-28",
+        "title": "Megamind",
+        "video": false,
+        "vote_average": 6.997,
+        "vote_count": 6913,
+        "watched": true
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/bpV8wn48s82au37QyUJ51S7X2Vf.jpg",
+        "genre_ids": [
+            18
+        ],
+        "id": 489,
+        "original_language": "en",
+        "original_title": "Good Will Hunting",
+        "overview": "Headstrong yet aimless, Will Hunting has a genius-level IQ but chooses to work as a janitor at MIT. When he secretly solves highly difficult graduate-level math problems, his talents are discovered by Professor Gerald Lambeau, who decides to help the misguided youth reach his potential. When Will is arrested for attacking a police officer, Professor Lambeau makes a deal to get leniency for him if he gets court-ordered therapy. Eventually, therapist Dr. Sean Maguire helps Will confront the demons that are holding him back.",
+        "popularity": 81.443,
+        "poster_path": "/z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg",
+        "release_date": "1997-12-05",
+        "title": "Good Will Hunting",
+        "video": false,
+        "vote_average": 8.162,
+        "vote_count": 12540,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/63y4XSVTZ7mRzAzkqwi3o0ajDZZ.jpg",
+        "genre_ids": [
+            80,
+            18,
+            35
+        ],
+        "id": 106646,
+        "original_language": "en",
+        "original_title": "The Wolf of Wall Street",
+        "overview": "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.",
+        "popularity": 129.285,
+        "poster_path": "/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+        "release_date": "2013-12-25",
+        "title": "The Wolf of Wall Street",
+        "video": false,
+        "vote_average": 8.031,
+        "vote_count": 24252,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/sFEYsEfzTx7hhjetlNrme8B5OUo.jpg",
+        "genre_ids": [
+            28,
+            53,
+            878
+        ],
+        "id": 752,
+        "original_language": "en",
+        "original_title": "V for Vendetta",
+        "overview": "In a world in which Great Britain has become a fascist state, a masked vigilante known only as “V” conducts guerrilla warfare against the oppressive British government. When V rescues a young woman from the secret police, he finds in her an ally with whom he can continue his fight to free the people of Britain.",
+        "popularity": 40.617,
+        "poster_path": "/1avD1JeaRiJX5M4ahPdZPypGoGN.jpg",
+        "release_date": "2006-02-23",
+        "title": "V for Vendetta",
+        "video": false,
+        "vote_average": 7.898,
+        "vote_count": 14591,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/oIwfoUFfWfESn0Y8u8jv9lc8li1.jpg",
+        "genre_ids": [
+            28,
+            53
+        ],
+        "id": 562,
+        "original_language": "en",
+        "original_title": "Die Hard",
+        "overview": "NYPD cop John McClane's plan to reconcile with his estranged wife is thrown for a serious loop when, minutes after he arrives at her offices Christmas Party, the entire building is overtaken by a group of terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly rescue the hostages and bring the bad guys down.",
+        "popularity": 50.13,
+        "poster_path": "/1NnCbaFaWgHczKjH5Eii46VmpPp.jpg",
+        "release_date": "1988-07-15",
+        "title": "Die Hard",
+        "video": false,
+        "vote_average": 7.797,
+        "vote_count": 11309,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/rbZvGN1A1QyZuoKzhCw8QPmf2q0.jpg",
+        "genre_ids": [
+            18,
+            53,
+            9648
+        ],
+        "id": 11324,
+        "original_language": "en",
+        "original_title": "Shutter Island",
+        "overview": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
+        "popularity": 101.336,
+        "poster_path": "/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+        "release_date": "2010-02-14",
+        "title": "Shutter Island",
+        "video": false,
+        "vote_average": 8.201,
+        "vote_count": 24192,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/Ag6qhzsJd3k1NKuNrG9RmhZDMh7.jpg",
+        "genre_ids": [
+            18,
+            80
+        ],
+        "id": 640,
+        "original_language": "en",
+        "original_title": "Catch Me If You Can",
+        "overview": "A true story about Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars worth of checks as a Pan Am pilot, doctor, and legal prosecutor. An FBI agent makes it his mission to put him behind bars. But Frank not only eludes capture, he revels in the pursuit.",
+        "popularity": 61.572,
+        "poster_path": "/sdYgEkKCDPWNU6KnoL4qd8xZ4w7.jpg",
+        "release_date": "2002-12-16",
+        "title": "Catch Me If You Can",
+        "video": false,
+        "vote_average": 7.98,
+        "vote_count": 15808,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/msCHK5Kh1YbdZ0zPJ2nzPUhhSN9.jpg",
+        "genre_ids": [
+            14,
+            18,
+            9648
+        ],
+        "id": 141,
+        "original_language": "en",
+        "original_title": "Donnie Darko",
+        "overview": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes.",
+        "popularity": 53.959,
+        "poster_path": "/6FKym4sm5LcqUC80HNpn2ejVoro.jpg",
+        "release_date": "2001-01-19",
+        "title": "Donnie Darko",
+        "video": false,
+        "vote_average": 7.772,
+        "vote_count": 12544,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/79bJL9ydAMYVltuNTt4VhxORqIz.jpg",
+        "genre_ids": [
+            12,
+            878
+        ],
+        "id": 329,
+        "original_language": "en",
+        "original_title": "Jurassic Park",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "popularity": 44.059,
+        "poster_path": "/fjTU1Bgh3KJu4aatZil3sofR2zC.jpg",
+        "release_date": "1993-06-11",
+        "title": "Jurassic Park",
+        "video": false,
+        "vote_average": 8.0,
+        "vote_count": 16463,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/p3WiF8qYS7Qp17YRYgrFh7gf9P9.jpg",
+        "genre_ids": [
+            28,
+            80
+        ],
+        "id": 24,
+        "original_language": "en",
+        "original_title": "Kill Bill: Vol. 1",
+        "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance.",
+        "popularity": 66.869,
+        "poster_path": "/9yaVKBwvbvq3qL8zzSmuoxZuoFK.jpg",
+        "release_date": "2003-10-10",
+        "title": "Kill Bill: Vol. 1",
+        "video": false,
+        "vote_average": 8.0,
+        "vote_count": 17571,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/pgG6tzJzC8mjGqhaT8IWwEk00xf.jpg",
+        "genre_ids": [
+            28,
+            80,
+            53
+        ],
+        "id": 393,
+        "original_language": "en",
+        "original_title": "Kill Bill: Vol. 2",
+        "overview": "The Bride unwaveringly continues on her roaring rampage of revenge against the band of assassins who had tried to kill her and her unborn child. She visits each of her former associates one-by-one, checking off the victims on her Death List Five until there's nothing left to do … but kill Bill.",
+        "popularity": 47.44,
+        "poster_path": "/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",
+        "release_date": "2004-04-16",
+        "title": "Kill Bill: Vol. 2",
+        "video": false,
+        "vote_average": 7.875,
+        "vote_count": 14000,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+        "genre_ids": [
+            18
+        ],
+        "id": 550,
+        "original_language": "en",
+        "original_title": "Fight Club",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "popularity": 111.202,
+        "poster_path": "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+        "release_date": "1999-10-15",
+        "title": "Fight Club",
+        "video": false,
+        "vote_average": 8.438,
+        "vote_count": 29774,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/6TjllWT3cGrPFyqDXurVZ3L8bBi.jpg",
+        "genre_ids": [
+            9648,
+            53,
+            18
+        ],
+        "id": 745,
+        "original_language": "en",
+        "original_title": "The Sixth Sense",
+        "overview": "Following an unexpected tragedy, child psychologist Malcolm Crowe meets a nine year old boy named Cole Sear, who is hiding a dark secret.",
+        "popularity": 44.4,
+        "poster_path": "/gKoJ2k3qssE1PjV7pss2YqSIoT6.jpg",
+        "release_date": "1999-08-06",
+        "title": "The Sixth Sense",
+        "video": false,
+        "vote_average": 8.0,
+        "vote_count": 11840,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/17QgDl7HRdUhloGt1zJwpUWg2a.jpg",
+        "genre_ids": [
+            27,
+            9648
+        ],
+        "id": 23827,
+        "original_language": "en",
+        "original_title": "Paranormal Activity",
+        "overview": "After a young, middle-class couple moves into what seems like a typical suburban house, they become increasingly disturbed by a presence that may or may not be demonic but is certainly the most active in the middle of the night.",
+        "popularity": 33.699,
+        "poster_path": "/tmclkEpjeo4Zu564gf3KrwIOuKw.jpg",
+        "release_date": "2007-09-14",
+        "title": "Paranormal Activity",
+        "video": false,
+        "vote_average": 6.008,
+        "vote_count": 5067,
+        "watched": true
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+        "genre_ids": [
+            28,
+            878,
+            12
+        ],
+        "id": 27205,
+        "original_language": "en",
+        "original_title": "Inception",
+        "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
+        "popularity": 119.363,
+        "poster_path": "/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
+        "release_date": "2010-07-15",
+        "title": "Inception",
+        "video": false,
+        "vote_average": 8.369,
+        "vote_count": 36980,
+        "watched": true
+    },
+]
