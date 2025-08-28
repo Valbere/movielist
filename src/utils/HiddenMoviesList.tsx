@@ -266,7 +266,7 @@ export const hiddenMoviesList = [
         "video": false,
         "vote_average": 8.031,
         "vote_count": 24252,
-        "watched": false
+        "watched": true
     },
     {
         "adult": false,
