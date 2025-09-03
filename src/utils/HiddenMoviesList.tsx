@@ -453,6 +453,67 @@ export const hiddenMoviesList = [
     },
     {
         "adult": false,
+        "backdrop_path": "/4V1yIoAKPMRQwGBaSses8Bp2nsi.jpg",
+        "genre_ids": [
+            28,
+            878
+        ],
+        "id": 137113,
+        "original_language": "en",
+        "original_title": "Edge of Tomorrow",
+        "overview": "Major Bill Cage is an officer who has never seen a day of combat when he is unceremoniously demoted and dropped into combat. Cage is killed within minutes, managing to take an alpha alien down with him. He awakens back at the beginning of the same day and is forced to fight and die again... and again - as physical contact with the alien has thrown him into a time loop.",
+        "popularity": 14.8486,
+        "poster_path": "/nBM9MMa2WCwvMG4IJ3eiGUdbPe6.jpg",
+        "release_date": "2014-05-27",
+        "title": "Edge of Tomorrow",
+        "video": false,
+        "vote_average": 7.632,
+        "vote_count": 14386,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/dwN0kPGrLbFRxyL3F3J3t4ShQx.jpg",
+        "genre_ids": [
+            878,
+            28,
+            12
+        ],
+        "id": 18,
+        "original_language": "fr",
+        "original_title": "Le Cinquième Élément",
+        "overview": "In 2257, a taxi driver is unintentionally given the task of saving a young girl who is part of the key that will ensure the survival of humanity.",
+        "popularity": 13.9107,
+        "poster_path": "/fPtlCO1yQtnoLHOwKtWz7db6RGU.jpg",
+        "release_date": "1997-05-02",
+        "title": "The Fifth Element",
+        "video": false,
+        "vote_average": 7.557,
+        "vote_count": 11181,
+        "watched": false
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/43BEez1EGdmNpg8rcPUFToujlii.jpg",
+        "genre_ids": [
+            53,
+            80
+        ],
+        "id": 161,
+        "original_language": "en",
+        "original_title": "Ocean's Eleven",
+        "overview": "Less than 24 hours into his parole, charismatic thief Danny Ocean is already rolling out his next plan: In one night, Danny's hand-picked crew of specialists will attempt to steal more than $150 million from three Las Vegas casinos. But to score the cash, Danny risks his chances of reconciling with ex-wife, Tess.",
+        "popularity": 10.3794,
+        "poster_path": "/hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
+        "release_date": "2001-12-07",
+        "title": "Ocean's Eleven",
+        "video": false,
+        "vote_average": 7.45,
+        "vote_count": 12017,
+        "watched": false
+    },
+    {
+        "adult": false,
         "backdrop_path": "/6TjllWT3cGrPFyqDXurVZ3L8bBi.jpg",
         "genre_ids": [
             9648,
